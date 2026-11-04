@@ -451,7 +451,7 @@ Building ContextMind AI helped me work through practical full-stack AI engineeri
 B.Tech — Computer Science and Engineering (AI & ML)
 
 - GitHub: [@JaganRamadugu](https://github.com/JaganRamadugu)
-- LinkedIn: [Add your LinkedIn profile URL]
+- LinkedIn: https://www.linkedin.com/in/jagan-ramadugu-33666031a/
 
 ---
 

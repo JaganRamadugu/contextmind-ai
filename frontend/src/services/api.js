@@ -1,5 +1,9 @@
 const API_URL =
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
+  import.meta.env.VITE_API_URL ||
+  (typeof window !== "undefined" &&
+  (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    ? "http://localhost:8000/api"
+    : "https://contextmind-ai-backend.onrender.com/api");
 
 // Attach the Firebase ID token to every protected request
 function getHeaders(token) {
